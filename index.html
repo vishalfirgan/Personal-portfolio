@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishal's-Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/v.png" />
+
+    <!-- custom css links -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    lients-item img {
+      /* width: 100%; */
+      /* filter: grayscale(1); */
+      transition: var(--transition-1);
+    }
+  </style>
+  <body>
+    <!-- main -->
+    <main>
+      <!-- sidebar active can be added as attribute -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt=" vishal's avatar"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="vishal firgan">Vishal Firgan</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:vishalfirgan24@gmail.com" class="contact-link">
+                  vishalfirgan24@gmail.com
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+918605563058" class="contact-link">
+                  +91 8605563058
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datatime="2000-12-13">December 13, 2000</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Pune, Maharashtra, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <!-- linkedin twitter insta github -->
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/vishal-firgan-2440bb226/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/vishalfirgan" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://twitter.com/VishalFirgan" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/vishal_firgan/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- main content -->
+
+      <div class="main-content">
+        <!-- navbar -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- about -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Passionate software enthusiast specializing in Java and web
+              technologies, Skilled in java, Spring Boot, SQL, HTML, and CSS to
+              craft robust solutions. Enthusiastic about exploring new
+              technologies and embracing challenges in the dynamic world of
+              software development.
+            </p>
+            <p>
+              Recent Engineering graduate with practical experience in software
+              development, focusing on Java, Spring Boot, Hibernate, SQL, HTML,
+              and CSS. Eager to contribute effectively to innovative projects
+              and achieve meaningful outcomes.
+            </p>
+          </section>
+
+          <!-- service -->
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/web-developer.svg"
+                    alt="web dev"
+                    width="100"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+                  <p class="service-item-text">
+                    Developing software applications using the Java ,
+                    specializing in enterprise-level applications.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/database.svg"
+                    alt="database icon"
+                    width="100"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database Management</h4>
+                  <p class="service-item-text">
+                    Leveraging SQL and MySQL databases for efficient data
+                    storage and retrieval in web applications.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/frontend.svg"
+                    alt="web dev"
+                    width="100"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend Development</h4>
+                  <p class="service-item-text">
+                    Crafting user interfaces and interactive experiences using
+                    HTML, CSS, and JavaScript.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/problem-solving.svg"
+                    alt="web dev"
+                    width="100"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Problem Solving</h4>
+                  <p class="service-item-text">
+                    Passionate about solving challenges & finding solutions,
+                    equipped with strong analytical skills.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- testimonial certifications -->
+          <section class="testimonials">
+            <h3 class="testimonials-title h3">Certifications</h3>
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/certi.svg"
+                      alt="java certi"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Java Full Stack Development
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Completed 6-month Java Full Stack Development
+                      certification program at Kodnest Technologies, gaining
+                      proficiency in both backend (Java) and frontend
+                      technologies. Developed skills in full-stack development,
+                      RESTful APIs, database management, and MVC architecture.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/certi2.svg"
+                      alt="java certi"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    HTML and CSS
+                    <br />
+                    Certification
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Acquired proficiency in front-end web development
+                      fundamentals, including HTML markup, CSS styling, and
+                      responsive web design principles. Demonstrated ability to
+                      create well-structured and visually appealing web pages.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- this is for my upcaomming javascript certifaction -->
+              <!-- <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/certi.svg"
+                      alt="java certi"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Tata Crucible Campus Quiz 2023
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Participated in the prestigious Tata Crucible Campus Quiz,
+                      showcasing knowledge, teamwork, and critical thinking
+                      abilities in a competitive academic environment.
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/certi.svg"
+                      alt="java certi"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Tata Crucible Campus Quiz 2023
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Participated in the prestigious Tata Crucible Campus Quiz,
+                      showcasing knowledge, teamwork, and critical thinking
+                      abilities in a competitive academic environment.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- testimonials modal -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/certi.svg"
+                    alt=""
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>
+                  Java Full Stack Development
+                </h4>
+
+                <time datetime="2024-03-01">01 March, 2024</time>
+                <div data-modal-text>
+                  <p>
+                    Completed 6-month Java Full Stack Development certification
+                    program at Kodnest Technologies, gaining proficiency in both
+                    backend (Java) and frontend technologies. Developed skills
+                    in full-stack development, RESTful APIs, database
+                    management, and MVC architecture.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- skils -->
+          <section class="clients">
+            <h3 class="h3 clients-title">Skills</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class=".no-click">
+                <img src="./assets/images/java.png" alt="java" width="70" />
+              </li>
+
+              <li class=".no-click">
+                <img
+                  src="./assets/images/springboot.png"
+                  alt="springboot"
+                  width="70"
+                />
+              </li>
+              <li class=".no-click">
+                <img src="./assets/images/mysql.png" alt="mysql" width="70" />
+              </li>
+              <li class=".no-click">
+                <img src="./assets/images/html.png" alt="html" width="50" />
+              </li>
+              <li class=".no-click">
+                <img src="./assets/images/css.png" alt="css" width="50" />
+              </li>
+              <li class="" style="padding: 10px;">
+                <img
+                  src="./assets/images/javascript.png"
+                  alt="javascript"
+                  width="60"
+                />
+              </li>
+
+              <li class=".no-click">
+                <img
+                  src="./assets/images/postman.png"
+                  alt="javascript"
+                  width="70"
+                />
+              </li>
+              <li class=".no-click">
+                <img src="./assets/images/api.png" alt="api" width="70" />
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- resume -->
+
+        <article class="resume" data-page="resume">
+          <header><h2 class="h2 article-title">Resume</h2></header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Technology ( B.Tech )
+                </h4>
+                <span>2019 - 2023</span>
+                <p class="timeline-text">
+                  Sharad Institute of Technology College of Engineering ,
+                  Kolhapur
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Higher Secondary Education ( 12th grade )
+                </h4>
+                <span>2018 - 2019</span>
+                <p class="timeline-text">
+                  Rajat Junior College, Kolhapur
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Secondary Education ( 10th grade )
+                </h4>
+                <span>2016 - 2017</span>
+                <p class="timeline-text">
+                  Shanta-RamKrishna Datar English School , Kolhapur
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Development Intern
+                </h4>
+                <p class="timeline-text">Kodnest Technologies</p>
+                <span>July 2023 - February 2024</span>
+                <p class="timeline-text">
+                  Gained practical experience in Java Full Stack Development.
+                  Created various projects in Java, Spring boot, Spring MVC,
+                  Hibernate to enhance my skills and proficiency in full-stack
+                  development. Completed Java Full Stack Development
+                  certification program, acquiring in-depth knowledge &
+                  practical experience in java development.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Web Developer Intern
+                </h4>
+                <p class="timeline-text">Wolfox Services</p>
+                <span>February 2023 - May 2023</span>
+                <p class="timeline-text">
+                  Built dynamic web applications during my internship at Wolfox,
+                  focusing on frontend development utilizing HTML, CSS,
+                  Bootstrap, and foundational knowledge in JavaScript and React.
+                  Contributed to designing and implementing user interfaces for
+                  seamless user experiences. Acquired hands-on experience in
+                  frontend technologies, emphasizing responsive design and
+                  user-centric interfaces.
+                </p>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Secondary Education ( 10th grade )
+                </h4>
+                <span>2016 - 2017</span>
+                <p class="timeline-text">
+                  Shanta-RamKrishna Datar English School , Kolhapur
+                </p>
+              </li> -->
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Spring Boot</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MySql</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Jdbc & Hibernate</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%;"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Html & Css</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- projects -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <!-- <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li> -->
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/vishalfirgan">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      style="object-fit: cover; width: 100%; height: 100%;"
+                      src="./assets/images/music-project1.jpg"
+                      alt="musically"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Musically</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/vishalfirgan/Question-Quiz-Backend-Application"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/quiz-project.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Question Quiz</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/vishalfirgan/Bank-Mangement-System-"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/bank-project.jpeg"
+                      alt="bank"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Bank Management</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/vishalfirgan/Tin-Dog-App">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      style="object-fit: cover; width: 100%; height: 100%;"
+                      src="./assets/images/tindog-project.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">TinDog</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      style="width: 100%; height: 100%;"
+                      class="pimg"
+                      src="./assets/images/port-project.jpg"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Portfolio web</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/vishalfirgan/Login-Registration-Module"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/login-project.jpeg"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Register-Login</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- bloggg -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- contact -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15137993.317250138!2d73.6397649127255!3d18.524564698164747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf0a60e63e71%3A0x4d454d4c4d546548!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- custom javascript link -->
+    <script src="./assets/js/script.js"></script>
+    <!-- ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
