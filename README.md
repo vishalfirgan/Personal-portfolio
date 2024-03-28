@@ -2,6 +2,9 @@
 
 Welcome to my portfolio website! This platform showcases my skills, projects, and experiences in software development using HTML, CSS, and JavaScript.
 
+## Link
+
+[Visit my portfolio website](https://vishalfirgan.github.io/Personal-portfolio/)
 ## Features
 
 - **Projects:** Explore a curated collection of my latest software projects, including descriptions, technologies used, and live demos where available.
@@ -21,6 +24,4 @@ This website is built using:
 
 To explore my portfolio website, simply click on the link provided below. Feel free to navigate through the different sections and get in touch with me if you have any questions or feedback!
 
-## Link
 
-[Visit my portfolio website](insert-link-to-your-portfolio-website)
