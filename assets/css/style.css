@@ -2061,3 +2061,27 @@ textarea.form-input::-webkit-resizer {
 }
 
 /* mine */
+
+.skills-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skill-btn {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  padding-left: 14px;
+  border: 1px solid #ff7f50; /* Thin orange border */
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+.skill-btn:hover {
+  background-color: #333;
+}
